@@ -4,15 +4,12 @@
 int main(void) 
 {
   char c;
-  int i;
-  
-  printf("input a number :");
+  printf("input a character :");
   scanf("%c", &c);
   
-  i = c - '0';
-  printf("The input number ASCII is %i\n", c);
-  printf("The input number is %i\n", i);
-    
-  system("PAUSE");	
+  printf("The next character of %c (%d) is %c (%d)\n", c, c, c+1, c+1);
+  
+   system("PAUSE");	
+
   return 0;
 }
